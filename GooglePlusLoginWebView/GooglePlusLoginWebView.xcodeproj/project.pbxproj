@@ -14,6 +14,9 @@
 		3149919D19D3F60800AA5486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3149919C19D3F60800AA5486 /* Images.xcassets */; };
 		314991A019D3F60800AA5486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3149919E19D3F60800AA5486 /* LaunchScreen.xib */; };
 		314991AC19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314991AB19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m */; };
+		314991B819D3F69400AA5486 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991B519D3F69400AA5486 /* GoogleOpenSource.framework */; };
+		314991B919D3F69400AA5486 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991B619D3F69400AA5486 /* GooglePlus.framework */; };
+		314991BA19D3F69400AA5486 /* GooglePlus.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991B719D3F69400AA5486 /* GooglePlus.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		314991A519D3F60800AA5486 /* GooglePlusLoginWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlusLoginWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		314991AA19D3F60800AA5486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		314991AB19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglePlusLoginWebViewTests.m; sourceTree = "<group>"; };
+		314991B519D3F69400AA5486 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "../../../Downloads/google-plus-ios-sdk-1.7.1/GoogleOpenSource.framework"; sourceTree = "<group>"; };
+		314991B619D3F69400AA5486 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "../../../Downloads/google-plus-ios-sdk-1.7.1/GooglePlus.framework"; sourceTree = "<group>"; };
+		314991B719D3F69400AA5486 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "../../../Downloads/google-plus-ios-sdk-1.7.1/GooglePlus.bundle"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314991B819D3F69400AA5486 /* GoogleOpenSource.framework in Frameworks */,
+				314991B919D3F69400AA5486 /* GooglePlus.framework in Frameworks */,
+				314991BA19D3F69400AA5486 /* GooglePlus.bundle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,9 @@
 		3149918319D3F60800AA5486 = {
 			isa = PBXGroup;
 			children = (
+				314991B519D3F69400AA5486 /* GoogleOpenSource.framework */,
+				314991B619D3F69400AA5486 /* GooglePlus.framework */,
+				314991B719D3F69400AA5486 /* GooglePlus.bundle */,
 				3149918E19D3F60800AA5486 /* GooglePlusLoginWebView */,
 				314991A819D3F60800AA5486 /* GooglePlusLoginWebViewTests */,
 				3149918D19D3F60800AA5486 /* Products */,
@@ -343,6 +355,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dtarasconi/Downloads/google-plus-ios-sdk-1.7.1",
+				);
 				INFOPLIST_FILE = GooglePlusLoginWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/dtarasconi/Downloads/google-plus-ios-sdk-1.7.1",
+				);
 				INFOPLIST_FILE = GooglePlusLoginWebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
