@@ -16,3 +16,12 @@ Kudos to [Marco](https://github.com/marcobrambilla), who helped me out in the mi
 ## Prerequisites
 - Basic knowledge of Google Plus SDK (v. 1.7.1)
 - Basic knowledge on [how to setup a Goole Plus app](https://developers.google.com/+/mobile/ios/getting-started)
+
+## What's the deal
+1. You have to subclass UIApplication to re-implement openURL
+
+2. You need a UIViewController with a UIWebView inside
+
+3. You have to launch that view controller from the G+ login button
+
+4. Then you login though the webview, and one you are done, the modal is dismissed and you are logged in G+
