@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+static NSString * const kClientId = @"YOUR_CLIENT_ID";
+
 @interface ViewController ()
 
 @end
