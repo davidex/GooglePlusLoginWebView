@@ -17,6 +17,17 @@
 		314991B819D3F69400AA5486 /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991B519D3F69400AA5486 /* GoogleOpenSource.framework */; };
 		314991B919D3F69400AA5486 /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991B619D3F69400AA5486 /* GooglePlus.framework */; };
 		314991BA19D3F69400AA5486 /* GooglePlus.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991B719D3F69400AA5486 /* GooglePlus.bundle */; };
+		314991BC19D3F6D900AA5486 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991BB19D3F6D900AA5486 /* AddressBook.framework */; };
+		314991BE19D3F6E200AA5486 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991BD19D3F6E200AA5486 /* AssetsLibrary.framework */; };
+		314991C019D3F6EB00AA5486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991BF19D3F6EB00AA5486 /* Foundation.framework */; };
+		314991C219D3F6F300AA5486 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991C119D3F6F300AA5486 /* CoreLocation.framework */; };
+		314991C419D3F6F800AA5486 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991C319D3F6F800AA5486 /* CoreMotion.framework */; };
+		314991C619D3F6FE00AA5486 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991C519D3F6FE00AA5486 /* CoreGraphics.framework */; };
+		314991C819D3F70900AA5486 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991C719D3F70900AA5486 /* CoreText.framework */; };
+		314991CA19D3F71100AA5486 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991C919D3F71100AA5486 /* MediaPlayer.framework */; };
+		314991CC19D3F71700AA5486 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991CB19D3F71700AA5486 /* Security.framework */; };
+		314991CE19D3F72000AA5486 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991CD19D3F72000AA5486 /* SystemConfiguration.framework */; };
+		314991D019D3F72900AA5486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991CF19D3F72900AA5486 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,17 @@
 		314991B519D3F69400AA5486 /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleOpenSource.framework; path = "../../../Downloads/google-plus-ios-sdk-1.7.1/GoogleOpenSource.framework"; sourceTree = "<group>"; };
 		314991B619D3F69400AA5486 /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlus.framework; path = "../../../Downloads/google-plus-ios-sdk-1.7.1/GooglePlus.framework"; sourceTree = "<group>"; };
 		314991B719D3F69400AA5486 /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlus.bundle; path = "../../../Downloads/google-plus-ios-sdk-1.7.1/GooglePlus.bundle"; sourceTree = "<group>"; };
+		314991BB19D3F6D900AA5486 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		314991BD19D3F6E200AA5486 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		314991BF19D3F6EB00AA5486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		314991C119D3F6F300AA5486 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		314991C319D3F6F800AA5486 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		314991C519D3F6FE00AA5486 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		314991C719D3F70900AA5486 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		314991C919D3F71100AA5486 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		314991CB19D3F71700AA5486 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		314991CD19D3F72000AA5486 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		314991CF19D3F72900AA5486 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				314991D019D3F72900AA5486 /* UIKit.framework in Frameworks */,
+				314991CE19D3F72000AA5486 /* SystemConfiguration.framework in Frameworks */,
+				314991CC19D3F71700AA5486 /* Security.framework in Frameworks */,
+				314991CA19D3F71100AA5486 /* MediaPlayer.framework in Frameworks */,
+				314991C819D3F70900AA5486 /* CoreText.framework in Frameworks */,
+				314991C619D3F6FE00AA5486 /* CoreGraphics.framework in Frameworks */,
+				314991C419D3F6F800AA5486 /* CoreMotion.framework in Frameworks */,
+				314991C219D3F6F300AA5486 /* CoreLocation.framework in Frameworks */,
+				314991C019D3F6EB00AA5486 /* Foundation.framework in Frameworks */,
+				314991BE19D3F6E200AA5486 /* AssetsLibrary.framework in Frameworks */,
+				314991BC19D3F6D900AA5486 /* AddressBook.framework in Frameworks */,
 				314991B819D3F69400AA5486 /* GoogleOpenSource.framework in Frameworks */,
 				314991B919D3F69400AA5486 /* GooglePlus.framework in Frameworks */,
 				314991BA19D3F69400AA5486 /* GooglePlus.bundle in Frameworks */,
@@ -72,6 +105,17 @@
 		3149918319D3F60800AA5486 = {
 			isa = PBXGroup;
 			children = (
+				314991CF19D3F72900AA5486 /* UIKit.framework */,
+				314991CD19D3F72000AA5486 /* SystemConfiguration.framework */,
+				314991CB19D3F71700AA5486 /* Security.framework */,
+				314991C919D3F71100AA5486 /* MediaPlayer.framework */,
+				314991C719D3F70900AA5486 /* CoreText.framework */,
+				314991C519D3F6FE00AA5486 /* CoreGraphics.framework */,
+				314991C319D3F6F800AA5486 /* CoreMotion.framework */,
+				314991C119D3F6F300AA5486 /* CoreLocation.framework */,
+				314991BF19D3F6EB00AA5486 /* Foundation.framework */,
+				314991BD19D3F6E200AA5486 /* AssetsLibrary.framework */,
+				314991BB19D3F6D900AA5486 /* AddressBook.framework */,
 				314991B519D3F69400AA5486 /* GoogleOpenSource.framework */,
 				314991B619D3F69400AA5486 /* GooglePlus.framework */,
 				314991B719D3F69400AA5486 /* GooglePlus.bundle */,
@@ -432,6 +476,7 @@
 				314991B119D3F60800AA5486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		314991B219D3F60800AA5486 /* Build configuration list for PBXNativeTarget "GooglePlusLoginWebViewTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +485,7 @@
 				314991B419D3F60800AA5486 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
