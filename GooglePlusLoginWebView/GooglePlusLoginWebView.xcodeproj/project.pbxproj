@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3149919219D3F60800AA5486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149919119D3F60800AA5486 /* main.m */; };
+		3149919519D3F60800AA5486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149919419D3F60800AA5486 /* AppDelegate.m */; };
+		3149919819D3F60800AA5486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3149919719D3F60800AA5486 /* ViewController.m */; };
+		3149919B19D3F60800AA5486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3149919919D3F60800AA5486 /* Main.storyboard */; };
+		3149919D19D3F60800AA5486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3149919C19D3F60800AA5486 /* Images.xcassets */; };
+		314991A019D3F60800AA5486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3149919E19D3F60800AA5486 /* LaunchScreen.xib */; };
+		314991AC19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 314991AB19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		314991A619D3F60800AA5486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3149918419D3F60800AA5486 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3149918B19D3F60800AA5486;
+			remoteInfo = GooglePlusLoginWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3149918C19D3F60800AA5486 /* GooglePlusLoginWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooglePlusLoginWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3149919019D3F60800AA5486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3149919119D3F60800AA5486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3149919319D3F60800AA5486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3149919419D3F60800AA5486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3149919619D3F60800AA5486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3149919719D3F60800AA5486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3149919A19D3F60800AA5486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3149919C19D3F60800AA5486 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3149919F19D3F60800AA5486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		314991A519D3F60800AA5486 /* GooglePlusLoginWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooglePlusLoginWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		314991AA19D3F60800AA5486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314991AB19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooglePlusLoginWebViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3149918919D3F60800AA5486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314991A219D3F60800AA5486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3149918319D3F60800AA5486 = {
+			isa = PBXGroup;
+			children = (
+				3149918E19D3F60800AA5486 /* GooglePlusLoginWebView */,
+				314991A819D3F60800AA5486 /* GooglePlusLoginWebViewTests */,
+				3149918D19D3F60800AA5486 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3149918D19D3F60800AA5486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3149918C19D3F60800AA5486 /* GooglePlusLoginWebView.app */,
+				314991A519D3F60800AA5486 /* GooglePlusLoginWebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3149918E19D3F60800AA5486 /* GooglePlusLoginWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3149919319D3F60800AA5486 /* AppDelegate.h */,
+				3149919419D3F60800AA5486 /* AppDelegate.m */,
+				3149919619D3F60800AA5486 /* ViewController.h */,
+				3149919719D3F60800AA5486 /* ViewController.m */,
+				3149919919D3F60800AA5486 /* Main.storyboard */,
+				3149919C19D3F60800AA5486 /* Images.xcassets */,
+				3149919E19D3F60800AA5486 /* LaunchScreen.xib */,
+				3149918F19D3F60800AA5486 /* Supporting Files */,
+			);
+			path = GooglePlusLoginWebView;
+			sourceTree = "<group>";
+		};
+		3149918F19D3F60800AA5486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3149919019D3F60800AA5486 /* Info.plist */,
+				3149919119D3F60800AA5486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		314991A819D3F60800AA5486 /* GooglePlusLoginWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				314991AB19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m */,
+				314991A919D3F60800AA5486 /* Supporting Files */,
+			);
+			path = GooglePlusLoginWebViewTests;
+			sourceTree = "<group>";
+		};
+		314991A919D3F60800AA5486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				314991AA19D3F60800AA5486 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3149918B19D3F60800AA5486 /* GooglePlusLoginWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314991AF19D3F60800AA5486 /* Build configuration list for PBXNativeTarget "GooglePlusLoginWebView" */;
+			buildPhases = (
+				3149918819D3F60800AA5486 /* Sources */,
+				3149918919D3F60800AA5486 /* Frameworks */,
+				3149918A19D3F60800AA5486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlusLoginWebView;
+			productName = GooglePlusLoginWebView;
+			productReference = 3149918C19D3F60800AA5486 /* GooglePlusLoginWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		314991A419D3F60800AA5486 /* GooglePlusLoginWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314991B219D3F60800AA5486 /* Build configuration list for PBXNativeTarget "GooglePlusLoginWebViewTests" */;
+			buildPhases = (
+				314991A119D3F60800AA5486 /* Sources */,
+				314991A219D3F60800AA5486 /* Frameworks */,
+				314991A319D3F60800AA5486 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314991A719D3F60800AA5486 /* PBXTargetDependency */,
+			);
+			name = GooglePlusLoginWebViewTests;
+			productName = GooglePlusLoginWebViewTests;
+			productReference = 314991A519D3F60800AA5486 /* GooglePlusLoginWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3149918419D3F60800AA5486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Davide Trasconi";
+				TargetAttributes = {
+					3149918B19D3F60800AA5486 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					314991A419D3F60800AA5486 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 3149918B19D3F60800AA5486;
+					};
+				};
+			};
+			buildConfigurationList = 3149918719D3F60800AA5486 /* Build configuration list for PBXProject "GooglePlusLoginWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3149918319D3F60800AA5486;
+			productRefGroup = 3149918D19D3F60800AA5486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3149918B19D3F60800AA5486 /* GooglePlusLoginWebView */,
+				314991A419D3F60800AA5486 /* GooglePlusLoginWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3149918A19D3F60800AA5486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3149919B19D3F60800AA5486 /* Main.storyboard in Resources */,
+				314991A019D3F60800AA5486 /* LaunchScreen.xib in Resources */,
+				3149919D19D3F60800AA5486 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314991A319D3F60800AA5486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3149918819D3F60800AA5486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3149919819D3F60800AA5486 /* ViewController.m in Sources */,
+				3149919519D3F60800AA5486 /* AppDelegate.m in Sources */,
+				3149919219D3F60800AA5486 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314991A119D3F60800AA5486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314991AC19D3F60800AA5486 /* GooglePlusLoginWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314991A719D3F60800AA5486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3149918B19D3F60800AA5486 /* GooglePlusLoginWebView */;
+			targetProxy = 314991A619D3F60800AA5486 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3149919919D3F60800AA5486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3149919A19D3F60800AA5486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3149919E19D3F60800AA5486 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3149919F19D3F60800AA5486 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		314991AD19D3F60800AA5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		314991AE19D3F60800AA5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		314991B019D3F60800AA5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooglePlusLoginWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		314991B119D3F60800AA5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooglePlusLoginWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		314991B319D3F60800AA5486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GooglePlusLoginWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePlusLoginWebView.app/GooglePlusLoginWebView";
+			};
+			name = Debug;
+		};
+		314991B419D3F60800AA5486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GooglePlusLoginWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooglePlusLoginWebView.app/GooglePlusLoginWebView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3149918719D3F60800AA5486 /* Build configuration list for PBXProject "GooglePlusLoginWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314991AD19D3F60800AA5486 /* Debug */,
+				314991AE19D3F60800AA5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314991AF19D3F60800AA5486 /* Build configuration list for PBXNativeTarget "GooglePlusLoginWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314991B019D3F60800AA5486 /* Debug */,
+				314991B119D3F60800AA5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		314991B219D3F60800AA5486 /* Build configuration list for PBXNativeTarget "GooglePlusLoginWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314991B319D3F60800AA5486 /* Debug */,
+				314991B419D3F60800AA5486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3149918419D3F60800AA5486 /* Project object */;
+}
