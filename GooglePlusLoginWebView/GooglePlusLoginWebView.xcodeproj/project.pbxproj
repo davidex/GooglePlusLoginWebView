@@ -28,6 +28,7 @@
 		314991CC19D3F71700AA5486 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991CB19D3F71700AA5486 /* Security.framework */; };
 		314991CE19D3F72000AA5486 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991CD19D3F72000AA5486 /* SystemConfiguration.framework */; };
 		314991D019D3F72900AA5486 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314991CF19D3F72900AA5486 /* UIKit.framework */; };
+		31E54E3319D3FD96002A001F /* GooglePlusModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31E54E3219D3FD96002A001F /* GooglePlusModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		314991CB19D3F71700AA5486 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		314991CD19D3F72000AA5486 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		314991CF19D3F72900AA5486 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31E54E3119D3FD96002A001F /* GooglePlusModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooglePlusModalViewController.h; sourceTree = "<group>"; };
+		31E54E3219D3FD96002A001F /* GooglePlusModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooglePlusModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				3149919C19D3F60800AA5486 /* Images.xcassets */,
 				3149919E19D3F60800AA5486 /* LaunchScreen.xib */,
 				3149918F19D3F60800AA5486 /* Supporting Files */,
+				31E54E3119D3FD96002A001F /* GooglePlusModalViewController.h */,
+				31E54E3219D3FD96002A001F /* GooglePlusModalViewController.m */,
 			);
 			path = GooglePlusLoginWebView;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				3149919819D3F60800AA5486 /* ViewController.m in Sources */,
 				3149919519D3F60800AA5486 /* AppDelegate.m in Sources */,
 				3149919219D3F60800AA5486 /* main.m in Sources */,
+				31E54E3319D3FD96002A001F /* GooglePlusModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
