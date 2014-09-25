@@ -15,3 +15,4 @@ Kudos to [Marco](https://github.com/marcobrambilla), who helped me out in the mi
 
 ## Prerequisites
 - Basic knowledge of Google Plus SDK (v. 1.7.1)
+- Basic knowledge on [how to setup a Goole Plus app](https://developers.google.com/+/mobile/ios/getting-started)
